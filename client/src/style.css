@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #383535;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .input {
+    padding: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+     margin-left:500px ;
+     margin-top: 50px;
+     width: 400px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    background-color:rgb(52, 143, 180);
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;align-items: center;
+    border-radius:5px ;
+    width: 800px;
+    margin-left: 330px;
+    white-space: nowrap;
+    
+  }
+  
+  .task:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(45, 134, 134);
+  }
+  
+  .edit-delete-buttons {
+    display: flex;
+  }
+  
+  .edit-delete-buttons{
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #534caf;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 4px;
+    position:relative;
+    right: 10px; 
+  top: 50%;
+  }
+  
+  .edit-delete-buttons:hover {
+    background-color: #e53935;
+    color: #fff;
+  }
+  .edit-and-delete{
+    display: flex;
+    margin-right: 10px;
+  }
